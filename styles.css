@@ -166,6 +166,23 @@ header p {
     margin-bottom: 1rem;
 }
 
+/* Project Card Links */
+.project-card h3 a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.project-card h3 a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+.project-card h3 a:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
